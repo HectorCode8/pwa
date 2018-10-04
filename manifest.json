@@ -1,0 +1,19 @@
+{
+    "name":"Portafolio Hector Haro",
+    "short_name":"Hector Haro H",
+    "description": "Aplicacion Portafolio de Hector Haro Hermosillo",
+    "background_color": "#FFF",
+    "theme_color": "#FB314E",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "./index.html?utm_source=web_app_manifest",
+    "scope":"./",
+    "lang": "es-MX",
+    "icons": [
+        {
+            "src":"./img/H2.jpg",
+            "size": "1024x1024",
+            "type": "image/jpg"
+        }
+    ]
+}
