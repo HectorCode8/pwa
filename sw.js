@@ -7,7 +7,7 @@ var urlsToCache = [
   './css/styles.css',
   './js/main.js',
   './img/facebook.png',
-  './img/H2.jpg',
+  './img/favicon-1024.jpg',
   './img/instagram.png',
   './img/twitter.png'
 ];
