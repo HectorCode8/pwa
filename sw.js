@@ -2,23 +2,17 @@
 const CACHE_NAME = 'v1_cache_hector_haro';
   
 // Ficheros a cachear en la aplicación
-urlsToCache = [
-  '../',
-  '../css/styles.css',
-  '../js/main.js',
-  './.img/favicon.png',
-  '../img/1.png',
-  '../img/2.png',
-  '../img/3.png',
-  '../img/4.png',
-  '../img/5.png',
-  '../img/6.png',
-  '../img/facebook.png',
-  '../img/H2.jpg',
-  '../img/instagram.png',
-  '../img/twitter.png'
+var urlsToCache = [
+  './',
+  './css/styles.css',
+  './js/main.js',
+  './img/facebook.png',
+  './img/H2.jpg',
+  './img/instagram.png',
+  './img/twitter.png'
 ];
  
+
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos
 self.addEventListener('install', e => {
   e.waitUntil(
